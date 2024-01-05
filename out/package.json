@@ -1,0 +1,18 @@
+{
+  "name": "neo-sport",
+  "version": "1.0.0",
+  "description": "Site de articole si editoriale sportive",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./css/input.css -o ./out/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^12.5.4"
+  }
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "DIN-1451";
+        src: url("../out/Fonts/DIN\ 1451\ Mittelschrift\ Regular.ttf");
+  }
+}
